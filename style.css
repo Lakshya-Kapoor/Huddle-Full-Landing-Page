@@ -1,0 +1,125 @@
+@font-face {
+    font-family: Poppins;
+    src: url('Fonts/Poppins/Poppins-Medium.ttf');
+}
+@font-face {
+    font-family: Open Sans;
+    src: url('Fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: block;
+}
+body img{
+    vertical-align: top;
+}
+header{
+    width: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 5% 5%;
+}
+header img{
+    margin-right: 75%;
+}
+header img, button{
+    vertical-align: middle;
+}
+header button{
+    border-color: hsl(321, 100%, 78%);
+    border-style: solid;
+    background-color: white;
+    color: hsl(321, 100%, 78%);
+    padding: 10px 30px;
+    font-family: Open Sans;
+    font-size: 120%;
+    border-radius: 50px;
+}
+.intro{
+    margin: 10% 15% 0% 15%;
+    display: block;
+}
+.intro h1{
+    color: #00232F;
+    font-size: 370%;
+    font-family: Poppins;
+}
+.intro p{
+    margin: 2% 20% 0% 20%;
+    font-family: Open Sans;
+    font-size: 150%;
+    text-align: center;
+    color: hsl(192, 100%, 9%);
+}
+.intro button{
+    margin: 5% 30% 0% 30%;
+    background-color: hsl(321, 100%, 78%);
+    color: white;
+    border: none;
+    font-family: Poppins;
+    font-size: 150%;
+    padding: 2.5% 10%;
+    border-radius: 70px;
+}
+.image {
+    margin: 7% 20%
+}
+.stats {
+    display: block;
+    margin-top: 3%;
+    margin-left: 20%;
+}
+.info p, .data h1, .icons img{
+    margin-bottom: 0.25%;
+    display: inline;
+}
+#icon1 {
+    margin-right: 48%;
+    width: 4%;
+}
+.data h1 {
+    color: hsl(192, 100%, 9%);
+    font-family: Open Sans;
+    font-size: 700%;
+}
+#data1 {
+    margin-right: 31%;
+}
+.info p {
+    color: #999EA2;
+    font-family: Open Sans;
+    font-size: 160%;
+}
+#info1 {
+    margin-right: 40%;
+}
+#growTop{
+    margin-top: 10%;
+}
+#growTop, #growBot, #convTop, #convBot{
+    width: 100%;
+}
+.grow {
+    width: 100%;
+    display: inline-block;
+    background-color: #F6FBFF;
+}
+.growContent{
+    margin-left: 10%;
+}
+.growContent h2{
+    display: inline;
+    font-family: Poppins;
+    font-size: 300%;
+    color: hsl(192, 100%, 9%);
+}
+.growContent p{
+    font-family: Open Sans;
+}
+.growImage img{
+    width: 20%;
+}
