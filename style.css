@@ -55,9 +55,9 @@ header button{
     text-align: center;
     color: hsl(192, 100%, 9%);
 }
-.intro button{
+.Free{
     margin: 5% 30% 0% 30%;
-    background-color: hsl(321, 100%, 78%);
+    background-color: hsl(322, 100%, 66%);
     color: white;
     border: none;
     font-family: Poppins;
@@ -100,26 +100,104 @@ header button{
 #growTop{
     margin-top: 10%;
 }
-#growTop, #growBot, #convTop, #convBot{
+#growTop, #growBot, #userTop, #userBot, #footerImg{
     width: 100%;
 }
-.grow {
+.grow, .users{
     width: 100%;
-    display: inline-block;
     background-color: #F6FBFF;
+    display: inline-block;
 }
 .growContent{
-    margin-left: 10%;
+    margin: 15% 10% 0% 10%;
+    display: inline-block;
 }
-.growContent h2{
-    display: inline;
+.growContent h2, .convContent h2, .userContent h2{
     font-family: Poppins;
     font-size: 300%;
     color: hsl(192, 100%, 9%);
 }
-.growContent p{
+.growContent p, .convContent p, .userContent p{
+    margin-top: 5%;
     font-family: Open Sans;
+    font-size: 120%;
+    color: #3C4C52;
 }
-.growImage img{
-    width: 20%;
+.grow img{
+    margin-top: 7%;
+    margin-bottom: 3%;
+    width: 40%;
+}
+.convContent, .userContent {
+    display: inline-block;
+    margin-top: 15%;
+}
+.conversations{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: inline-block;
+    vertical-align: top;
+}
+.conversations img{
+    width: 40%;
+    display: inline-block;
+    margin: 5% 10% 0% 10%;
+}
+.userContent {
+    margin-left: 7%;
+}
+.users img{
+    width: 40%;
+    display: inline-block;
+    margin: 5% 0% 0% 10%;
+}
+.final{
+    margin: 10%;
+}
+.final h2{
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: Poppins;
+    font-size: 300%;
+    color: hsl(192, 100%, 9%);
+}
+
+footer{
+    width: 100%;
+    display: inline-block;
+    background-color: #00252E;
+    color: white;
+}
+.huddle {
+    margin-top: 5%;
+    margin-bottom: 15%;
+    display: inline-block;
+    margin-left: 10%;
+    margin-right: 25%;
+}
+.huddle h2, .newsletter h2{
+    font-family: Poppins;
+    font-size: 300%;
+}
+.huddle p, .newsletter p{
+    margin: 5% 0%;
+    font-family: Open Sans;
+    font-size: 110%;
+}
+.phone p, .mail p {
+    margin: 0;
+    font-family: Open Sans;
+    margin-left: 5%;
+    display: inline-block;
+}
+.newsletter{
+    margin-top: 5%;
+    vertical-align: top;
+    display: inline-flex;
+    flex-direction: column;
+}
+input{
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
 }
